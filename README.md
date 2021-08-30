@@ -1,2 +1,3 @@
 # Project1-Suduko
-Math110B Sudoko
+Math110B Sudoko 
+Data
