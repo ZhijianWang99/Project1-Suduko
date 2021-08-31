@@ -83,7 +83,7 @@ def large_data(route, my_seed=42):
     my_solution = np.array([sudoku_constraint(e) for e in quiz_list])
     return sum(solutions_list == my_solution), len(quiz_list)
 
-
+"""
 if __name__ == '__main__':
     print("Small Data Result")
     print("  Small Data1 Result:")
@@ -113,3 +113,4 @@ if __name__ == '__main__':
     total = total1 + total2
     p = correct / total
     print(f"  Total: {correct}, Correct: {total}, Correct_Percentage: {p}")
+"""
